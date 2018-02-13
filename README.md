@@ -21,17 +21,23 @@ Make sure to `cd` into the project before you do anything.
 Run the more advanced Quick sort with shuffle.
 
  ```
- php -f cli.php sort
+ php -f cli.php sort quick
  ```
  
  Run the simpler and more common quick sort.
  
  ```
- php -f cli.php simple_sort
+ php -f cli.php sort simple
  ```
  
  Run both of them and test which is faster. 
  
  ```
- php -f cli.php
+ php -f cli.php sort
+ ```
+ 
+ Run the Red Black Tree example.
+ 
+ ```
+ php -f cli.php rbt
  ```
